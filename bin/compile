@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo 'machine '$NETRC_HOST >> $HOME/.netrc
 echo '  login '$NETRC_USERNAME >> $HOME/.netrc
