@@ -4,5 +4,5 @@
 # context of another buildpack, like Multipack. Therefore,
 # we're best able to communicate the absence of the needed
 # environment variable if we fail during the 'compile' task.
-echo "github-netrc"
+echo "netrc"
 exit 0
